@@ -1,15 +1,15 @@
-ppackage main
+package main
 
 import "fmt"
 
 
 func main() {
-	fmt.Print("Our system can determine deu tax of Three person's per time!!")
+	fmt.Print("Our system can determine deu tax of Three person's per time !!\n")
 	for i := 0; i < 3; i++ {
 		var name string
 		var earning float64
 
-		fmt.Print("Enter citizen's name: ")
+		fmt.Println("Enter citizen's name: ")
 		fmt.Scanln(&name)
 
 		fmt.Printf("Enter %s's earning: ", name)
@@ -30,6 +30,6 @@ func main() {
 			tax = earning * taxRate1
 		}
 
-		fmt.Printf("%s's Total Tax: %.2f\n", name, tax)
+		fmt.Printf("%s's total payable tax: $%.2f\n", name, tax)
 	}
 }
