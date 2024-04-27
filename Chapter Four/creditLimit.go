@@ -2,6 +2,9 @@ package main
 import "fmt"
 
 func main(){
+	creditLimit()
+}
+func creditLimit(){
 	fmt.Print("Enter account number: ")
 	var number string
 	fmt.Scanln(&number)
