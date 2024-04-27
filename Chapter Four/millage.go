@@ -46,7 +46,7 @@ func main(){
  
 	}
 }
-	 totalMilesPerGallon  := milesPerGallon1 + milesPerGallon2 + milesPerGallon3
+	 totalMilesPerGallon  := (milesPerGallon1 + milesPerGallon2 + milesPerGallon3)
 
 	fmt.Println("Total miles Per gallon for all trips: ",totalMilesPerGallon,"miles/gallon") 
 
